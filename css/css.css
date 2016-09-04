@@ -1,0 +1,73 @@
+.myimg {background-size:cover;
+		background-position:center center;
+		height:370px;
+		background-image:url('../images/head.gif');	
+		z-index=-10;
+		opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+a {color:#ec1c24}
+
+a:hover {color:gray}
+
+
+.navbar {
+	background-color:white
+}
+
+
+.mydiv{
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.30);
+	height:800px;
+	text-align:center;
+	padding:0.5px;
+	color:white
+}
+
+body{
+	display:center;
+	background-image:url('../images/back.png')
+}
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:center;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(2px 2px 2px #fff); 
+ filter: drop-shadow(5px 5px 5px #fff); 
+ padding-top:180px
+}
+
+.p {color:white;
+	font-family:A Jannat LT;
+	font-size:20pt;
+	text-align:center}
+
+.subject {
+	font-size:30pt;
+}
+
+.header{
+	background-color:white;
+	background-size:cover;
+	height:230px
+}
+
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+ html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
